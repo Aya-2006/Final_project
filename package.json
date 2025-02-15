@@ -2,16 +2,15 @@
   "name": "final_project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Aya-2006.github.io/Final_project",
+  "homepage": "https://Aya-2006.github.io/final_project",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+  "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
